@@ -1,5 +1,9 @@
 # geo_bearing
 
+[![Crystal CI](https://github.com/geocrystal/geo_bearing/actions/workflows/crystal.yml/badge.svg)](https://github.com/geocrystal/geo_bearing/actions/workflows/crystal.yml)
+[![GitHub release](https://img.shields.io/github/release/geocrystal/geo_bearing.svg)](https://github.com/mamgeocrystalantoha/geo_bearing/releases)
+[![License](https://img.shields.io/github/license/geocrystal/geo_bearing.svg)](https://github.com/geocrystal/geo_bearing/blob/main/LICENSE)
+
 Crystal implementation of calculating initial and final bearings between two points using great-circle distance formulas.
 
 ## Installation
