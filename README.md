@@ -1,6 +1,6 @@
 # geo_bearing
 
-TODO: Write a description here
+Calculates initial and final bearings between two points using great-circle distance formulas. Perfect for navigation and mapping applications.
 
 ## Installation
 
@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      geo_bearing:
-       github: your-github-user/geo_bearing
+       github: geocrystal/geo_bearing
    ```
 
 2. Run `shards install`
@@ -28,7 +28,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/geo_bearing/fork>)
+1. Fork it (<https://github.com/geocrystal/geo_bearing/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -36,4 +36,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Anton Maminov](https://github.com/your-github-user) - creator and maintainer
+- [Anton Maminov](https://github.com/mamantoha) - creator and maintainer
