@@ -1,6 +1,6 @@
 module Geo
   module Bearing
-    VERSION = "0.1.0"
+    VERSION = {{ `shards version #{__DIR__}`.chomp.stringify }}
 
     # The formula used for calculating the initial bearing between two points on the Earth's surfaceis
     # is derived from the broader concepts of great-circle distance and navigation on a spherical Earth model.
