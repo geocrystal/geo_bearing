@@ -1,6 +1,6 @@
 # geo_bearing
 
-Calculates initial and final bearings between two points using great-circle distance formulas. Perfect for navigation and mapping applications.
+Crystal implementation of calculating initial and final bearings between two points using great-circle distance formulas.
 
 ## Installation
 
@@ -18,13 +18,18 @@ Calculates initial and final bearings between two points using great-circle dist
 
 ```crystal
 require "geo_bearing"
+
+lat1, lng1 = {48.8566, 2.3522}   # Paris
+lat2, lng2 = {40.7128, -74.0060} # New York
+
+Geo::Bearing.bearing(lat1, lng1, lat2, lng2)
+# => 291.7938627483058
+
+Geo::Bearing.bearing(lat1, lng1, lat2, lng2, true)
+# => 233.70448129781204
 ```
 
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
+![convex hull](/assets/readme_image.png)
 
 ## Contributing
 
