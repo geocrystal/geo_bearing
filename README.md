@@ -35,6 +35,8 @@ Geo::Bearing.bearing(lat1, lng1, lat2, lng2, true)
 
 ![convex hull](/assets/readme_image.png)
 
+<https://www.movable-type.co.uk/scripts/latlong.html>
+
 ## Contributing
 
 1. Fork it (<https://github.com/geocrystal/geo_bearing/fork>)
